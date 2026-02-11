@@ -1,0 +1,17 @@
+1. univariate analysis
+    1.1 categorical analysis
+        1.1.1 Heat/hot water, Noise-residential, illegal parking were the biggest issues for the jan 2025 out of all issues covering 50-55% of issues
+        1.1.2 NYPD(New York City Police Department) and HPD (New York City Department of Housing Preservation and Development) handles nearly 80% of the issues. 
+                we will dig deeper into this which agency is most inefficient or overloaded (maybe have less resources to handles issues)
+        1.1.3 93% cases are closed. We will investigate this later.
+
+    1.2 Temporal analysis
+        1.2.1 Former half of the month had average 12k requests per day and the later half of the month had average around 8k per day
+        1.2.2 heatmap shows a massive concentration of activity between 8:00 AM and 4:00 PM on Weekdays expacially on Monday and tuesday.
+        1.2.3 The histogram shows a massive spike at < 5 hours. 
+                This is incredibly fast for government services. It implies one of two things:
+                High Efficiency:  They are actually fixing potholes/lights instantly.
+                Automated Closures:  Many tickets might be "Closed - No Violation Found" or auto-closed by systems immediately.
+
+    1.3 Spatial analysis
+        1.3.1 The point map confirms high data precision. We observe clear "dead zones" corresponding to non-residential areas (Central Park, Airports, Cemeteries). This confirms the GPS data is accurate enough for block-level resource routing.
